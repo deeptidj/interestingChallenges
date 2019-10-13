@@ -3,7 +3,7 @@
  */
 public class Array3Stacks {
     //Describe how you could use a single array to implement three stacks
-    int stackSize = 10;
+    int stackSize = 3;
     int[] arr = new int[stackSize *3];
 
     int[] tops ={0,0,0};
@@ -40,6 +40,10 @@ public class Array3Stacks {
         a.push(0,30);
         a.push(1,30);
         a.push(2,30);
+
+        a.push(0,40);
+        a.push(1,40);
+        a.push(2,40);
         a.print3Stack();
 
     }

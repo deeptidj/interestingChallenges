@@ -10,11 +10,13 @@ public static void main(String args[]) {
     printArray();
     selectsort();
 }
+
 public static void printArray() {
     for(int i=0;i< arr.length;i++) {
         System.out.println(" Array Element :" +arr[i]);
     }
 }
+
 public static void selectsort() {
     int minIndex ;
     for(int i = 0 ; i < arr.length;i++) {
