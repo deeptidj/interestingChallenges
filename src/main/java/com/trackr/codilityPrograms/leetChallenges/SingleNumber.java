@@ -1,5 +1,8 @@
 package com.trackr.codilityPrograms.leetChallenges;
 
+import com.sun.org.apache.bcel.internal.generic.RETURN;
+
+import java.util.Arrays;
 import java.util.HashMap;
 
 /**
@@ -12,8 +15,16 @@ public class SingleNumber {
     Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
     */
     public  static void main(String args[]) {
-        int[] arr = {2,5,3,4,2,5,4,3,8,8,9,9,9};
-        int res = singleNumber(arr);
+       // int[] arr = {1,1,2,2,4,4,5};
+        //int[] arr = {1,4,4,5,5};
+        //int[] arr = {1};
+      // int[] arr = {1,1,2,2,4,4};
+        int[] arr = {};
+
+        //int[] arr = {2,2,3,3,1,1,4};
+
+        int res = singleNumber2(arr);
+       // int res = singleNumber(arr);
         //int result = singleNumberAscii(arr);
         System.out.println(res);
         //System.out.println(result);
@@ -23,9 +34,31 @@ public class SingleNumber {
         char ch = 'a';
         int ascii = (int) ch;
         System.out.println(ascii);
+        ch = 'z';
+        ascii = (int) ch;
+        System.out.println(ascii);
         return ascii;
     }
+    public static int singleNumber2(int[] nums) {
 
+        if (nums.length == 0) return -1;
+        if (nums.length < 2) return nums[0];
+
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length -1; i++) {
+            if (nums[i] != nums[i+1]){
+             return nums[i];
+            }
+            i++;
+        }
+
+        if(nums[nums.length -1] != nums[nums.length-2]) {
+            return nums[nums.length-1];
+        }
+
+       return -1;
+    }
     public static int singleNumber(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
