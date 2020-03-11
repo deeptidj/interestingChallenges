@@ -66,11 +66,11 @@ public class TreeNode {
         return null;
     }
 
-    public void inOrderTrversal() {
+    public void inOrderTraversal() {
         if (this.leftchild != null)
-            this.leftchild.inOrderTrversal();
+            this.leftchild.inOrderTraversal();
         System.out.println(" "+this.data);
         if (this.rightChild != null)
-            this.rightChild.inOrderTrversal();
+            this.rightChild.inOrderTraversal();
     }
 }

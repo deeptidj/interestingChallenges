@@ -9,8 +9,6 @@ import java.util.*;
 public class ArrayListsBasics {
     public static void main(String[] args) {
 
-
-
         System.out.println("Basics of Java");
 
         ArrayList<String> sList = new ArrayList<String>();

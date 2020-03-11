@@ -24,7 +24,7 @@ public class BinarySearchTree {
     public static void main(String[] args) {
         create123();
         findTree(15);
-        if (root != null) root.inOrderTrversal();
+      //  if (root != null) root.inOrderTrversal();
     }
     public static void findTree(int d) {
 

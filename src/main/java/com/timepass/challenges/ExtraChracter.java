@@ -15,6 +15,7 @@ public class ExtraChracter {
 
         HashMap<Character,Integer> h = new HashMap<Character, Integer>();
 
+
        char c;
         for (int i = 0; i < s1.length(); i++) {
             c = s1.charAt(i);
