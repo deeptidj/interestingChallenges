@@ -1,11 +1,6 @@
-package com.trackr.codilityPrograms;
+package com.timepass.challenges;
 
 import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-import java.util.TreeSet;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /**
  * Created by deepti on 9/22/19.

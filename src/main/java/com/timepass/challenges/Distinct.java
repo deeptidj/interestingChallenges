@@ -1,7 +1,6 @@
-package com.trackr.codilityPrograms;
+package com.timepass.challenges;
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 /**
  * Created by deepti on 9/26/19.

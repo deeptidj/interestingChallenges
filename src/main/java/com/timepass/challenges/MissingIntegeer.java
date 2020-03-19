@@ -1,4 +1,4 @@
-package com.trackr.codilityPrograms;
+package com.timepass.challenges;
 
 import java.util.Arrays;
 

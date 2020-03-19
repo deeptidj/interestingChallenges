@@ -1,4 +1,4 @@
-package com.trackr.codilityPrograms;
+package com.timepass.challenges;
 
 /**
  * Created by deepti on 9/26/19.
