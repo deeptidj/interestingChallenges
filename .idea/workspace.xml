@@ -23,9 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ArrayListsBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ArrayListsBasics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +77,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="15" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -86,14 +92,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -115,7 +122,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array3Stacks">
+  <component name="RunManager" selected="Application.ArrayListsBasics">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -159,6 +166,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayListsBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.ArrayListsBasics" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.ExceptionExample" />
       <module name="interestingChallenges" />
@@ -175,20 +196,6 @@
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.MainClass" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.timepass.challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateMat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.RotateMat" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -303,20 +310,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.With Args" />
+      <item itemvalue="Application.Array3Stacks" />
+      <item itemvalue="Application.ArrayListsBasics" />
       <item itemvalue="Application.ExceptionExample" />
       <item itemvalue="Application.MainClass" />
-      <item itemvalue="Application.RotateMat" />
       <item itemvalue="Application.TicTacToe" />
-      <item itemvalue="Application.Array3Stacks" />
+      <item itemvalue="Application.With Args" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListsBasics" />
         <item itemvalue="Application.Array3Stacks" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ExceptionExample" />
-        <item itemvalue="Application.RotateMat" />
       </list>
     </recent_temporary>
   </component>
@@ -335,38 +342,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 15m 29s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 16m 34s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 20m 10s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 23m 29s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 25m 48s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 29m 59s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 32m 10s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 35m 52s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 36m 47s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsTest - 2019.11.06 at 22h 45m 43s.xml">
-      <configuration name="AnagramsTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="3283000" />
   </component>
@@ -383,12 +358,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="264" key="new project wizard" timestamp="1610981961666">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="453" y="131" key="#Project_Structure" timestamp="1622658179591">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="390" y="264" key="new project wizard/0.23.1920.1057@0.23.1920.1057" timestamp="1610981961666" />
+    <state x="453" y="131" key="#Project_Structure/0.25.1920.1055@0.25.1920.1055" timestamp="1622658179591" />
+    <state x="474" y="188" key="SettingsEditor" timestamp="1622658624966">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="474" y="188" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1622658624966" />
+    <state x="349" y="212" key="new project wizard" timestamp="1622660120158">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="349" y="212" key="new project wizard/0.25.1920.1055@0.25.1920.1055" timestamp="1622660120158" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -479,92 +463,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>interestingChallenges</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.apiguardian:apiguardian-api:1.1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

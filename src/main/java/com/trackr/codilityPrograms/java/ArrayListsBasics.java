@@ -30,6 +30,7 @@ public class ArrayListsBasics {
         System.out.println(sList);
 
         for (String s:sList){
+            System.out.println(s.toString());
             if(s.equals("Deepti1")) {
                 System.out.println("Found Deepti1");
             }
@@ -37,7 +38,7 @@ public class ArrayListsBasics {
 
         ArrayList<String> obj = new ArrayList<String>(
                 Arrays.asList("Pratap", "Peter", "Harsh"));
-        System.out.println("Elements are:"+obj);
+        System.out.println("direfctly printing obj of araylist: "+obj);
 
 
         ArrayList<String> cities = new ArrayList<String>(){{
@@ -52,7 +53,7 @@ public class ArrayListsBasics {
         ArrayList<String> al2 = new ArrayList<String>(cities.subList(1,5));
         System.out.println(al2);
 
-
+/*
         ArrayList<Integer> intlist = new ArrayList<Integer>(Collections.nCopies(10, 5));
         System.out.println("ArrayList items: "+intlist);
 
@@ -80,6 +81,8 @@ public class ArrayListsBasics {
         System.out.println("ArrayList elements: Iterating through enumeration :s");
         while(e.hasMoreElements())
             System.out.println(e.nextElement());
+
+ */
     }
 
 
@@ -90,5 +93,6 @@ public class ArrayListsBasics {
        //Deep
 //	   Collections.sort(arrayList);
 //	   Collections.reverse(arrayList);
+
 
 }
