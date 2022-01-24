@@ -1,6 +1,8 @@
 package com.trackr.codilityPrograms.leetChallenges;
 
 
+import java.util.Stack;
+
 /**
  * Created by deepti on 3/14/18.
  */
@@ -12,10 +14,59 @@ public class ValidParanthesis {
      */
     public static void main(String args[]) {
 
-        System.out.println("Valid Paranthesis");
-        boolean res = validParanthesis("(({}))");
-        System.out.println(res);
+        String s = "{}";
+        System.out.println("Valid Paranthesis for s = "+s);
+        System.out.println("true : "+ validPara(s));
 
+        s = " {}()[]{}";
+        System.out.println("Valid Paranthesis for s = "+s);
+        System.out.println("true : "+ validPara(s));
+
+        s = "({";
+        System.out.println("Valid Paranthesis for s = "+s);
+        System.out.println("false : "+ validPara(s));
+
+        s = "(}";
+        System.out.println("Valid Paranthesis for s = "+s);
+        System.out.println("false : "+ validPara(s));
+
+        s = ")";
+        System.out.println("Valid Paranthesis for s = "+s);
+        System.out.println("false : "+ validPara(s));
+
+        s = "{]  ";
+        System.out.println("Valid Paranthesis for s = "+s);
+        System.out.println("false : "+ validPara(s));
+
+        s = "{][}()";
+        System.out.println("Valid Paranthesis for s = "+s);
+        System.out.println("false : "+ validPara(s));
+
+    }
+    // String input is strictly brackets.
+    public static boolean validPara(String str) {
+        char[] arr= str.trim().toCharArray();
+        System.out.println();
+        Stack<Character> stack = new Stack<Character>();
+        for (char c : arr) {
+            if (c == '{' || c == '[' || c == '(') {
+                stack.push(c);
+                continue;
+            } else if (!stack.isEmpty()) {
+                if (stack.peek() == '{' && c != '}'){
+                    return false;
+                } if (stack.peek() == '(' && c != ')'){
+                    return false;
+                } if (stack.peek() == '[' && c != ']'){
+                    return false;
+                } else {
+                    stack.pop();
+                }
+            }
+        }
+
+        if (stack.isEmpty()) return true;
+        else return false;
     }
 
     public static boolean validParanthesis(String str) {

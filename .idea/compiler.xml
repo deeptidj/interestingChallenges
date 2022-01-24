@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="temperatureconverter" />
         <module name="interestingChallenges" />
+        <module name="temperatureconverter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="interestingChallenges" target="1.5" />
+      <module name="interestingChallenges" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

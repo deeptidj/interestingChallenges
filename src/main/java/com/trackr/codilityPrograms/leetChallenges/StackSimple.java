@@ -43,6 +43,7 @@ public class StackSimple {
     }
     public static void main(String[] args) {
         System.out.println("Simple stack");
+        //StackSimple c = new StackSimple(10);
         StackSimple c = new StackSimple(10);
         c.push(0);
         c.push(1);

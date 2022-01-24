@@ -17,9 +17,33 @@ import java.util.HashMap;
  */
 public class ThreeSum {
     public static void main(String[] args) {
-    int[] numbers = {-1, 0, 1, 2, -1, -4};
+    int[] numbers = {-1, 0, 1, 2, -1, -4, 5};
     threeSum(numbers);
+    //    threeSum1(numbers);
     }
+
+    public static void threeSum1(int[] nums) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int i : nums) {
+            map.put(i, map.getOrDefault(i, 0)+1);
+        }
+        System.out.println(map);
+
+        for (int i = 0; i < nums.length-1; i++) {
+            int a = nums[i];
+            for (int j = 0; j < nums.length; j++) {
+                int b = nums[j];
+                int c = (a + b) * -1; //getting negative of the sum as we need to sum it to zero.
+                if (map.containsKey(c)) { // found a solution set
+                    //decrement from map - a , b , c
+                    //add it to the solutions set
+                }
+            }
+        }
+
+    }
+
+
 
     public static void threeSum(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -43,7 +67,6 @@ public class ThreeSum {
                     count_a = map.get(a) - 1 ;
                     map.put(a,count_a);
                 }
-
 
                 int count_b = 0;
                 if (map.containsKey(b)) {

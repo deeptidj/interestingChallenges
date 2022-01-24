@@ -21,10 +21,11 @@ public class ReverseLetterInWordsInSentence {
         System.out.println(res);
 
     }
+
     private static String reverse(String s) {
         char[] arrChar = s.toCharArray();
-        int tail = arrChar.length-1;
-        for (int i = 0; i < arrChar.length/2 ; i++) {
+        int tail = arrChar.length - 1;
+        for (int i = 0; i < arrChar.length / 2; i++) {
             char tmp = arrChar[tail];
             arrChar[tail] = arrChar[i];
             arrChar[i] = tmp;

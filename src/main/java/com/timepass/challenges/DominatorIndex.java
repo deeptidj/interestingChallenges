@@ -10,17 +10,22 @@ public class DominatorIndex {
         DominatorIndex d = new DominatorIndex();
         System.out.println(d.solution(A));
     }
-    public int solution(int[] A){
-        int cand; int dominatorCount  = 0; int dominatorCandidateIndex = -1;
+
+    public int solution(int[] A) {
+        int cand;
+        int dominatorCount = 0;
+        int dominatorCandidateIndex = -1;
         for (int i = 0; i < A.length; i++) {
             cand = A[i];
             int count = 0;
             for (int j = 0; j < A.length; j++) {
-                if(cand == A[j]) {count++;}
+                if (cand == A[j]) {
+                    count++;
+                }
             }
-            if(count > dominatorCount) {
-                dominatorCount = count ;
-                if (dominatorCount > ((A.length)/2)) dominatorCandidateIndex = i ;
+            if (count > dominatorCount) {
+                dominatorCount = count;
+                if (dominatorCount > ((A.length) / 2)) dominatorCandidateIndex = i;
 
             }
         }

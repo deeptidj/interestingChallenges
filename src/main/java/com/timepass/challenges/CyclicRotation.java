@@ -5,41 +5,42 @@ package com.timepass.challenges;
  */
 public class CyclicRotation {
     public static void main(String[] args) {
-       // int[] A = {3,8,9,7,6};
+        // int[] A = {3,8,9,7,6};
 
-        int[] A = {1,2,3,4};
+        int[] A = {1, 2, 3, 4};
 
         CyclicRotation c = new CyclicRotation();
-       // System.out.println(c.solution(4));
+        // System.out.println(c.solution(4));
         c.solution(A, 1);
         for (int i = 0; i < A.length; i++) {
-            System.out.println("Array element at position: "+ i+ " is "+ A[i]);
+            System.out.println("Array element at position: " + i + " is " + A[i]);
         }
         //c.solution(4);
-       // c.solution(1);
-      //  c.solution(2);
+        // c.solution(1);
+        //  c.solution(2);
 //
-       // c.solution(100);
+        // c.solution(100);
 //
 //        c.solution(0);
-      //  c.solution2(A);
+        //  c.solution2(A);
     }
 
     public int[] solution(int[] A, int k) {
-        int t; int swapPos;
+        int t;
+        int swapPos;
         int r = k % A.length;
-        System.out.println(" Remainder "+ r);
+        System.out.println(" Remainder " + r);
         for (int i = 0; i < A.length; i++) {
             if ((i + r) >= A.length)
                 swapPos = r - (A.length - i);
-            else swapPos = i +r;
+            else swapPos = i + r;
 
-            System.out.println("Swap Position is : " +swapPos);
+            System.out.println("Swap Position is : " + swapPos);
             t = A[swapPos];
             A[swapPos] = A[i];
             A[i] = t;
         }
-        return  A;
+        return A;
     }
 //    public int solution() {
 //        long l = Long.MAX_VALUE;
@@ -58,9 +59,9 @@ public class CyclicRotation {
 //        System.out.println(f1 == f2);
 //        System.out.println(f1 == f3);
 //        System.out.println(f2 == f3);
- //       return 0;
+    //       return 0;
 //
-  //  }
+    //  }
 //    public void solution(int N) {
 //                for (int j = 1; j < N; j++) {
 //                    System.out.println("L");
@@ -71,15 +72,15 @@ public class CyclicRotation {
 //
 //    }
 
-        int solution2(int[] A) {
-            int ans = 0;
-            for (int i = 1; i < A.length; i++) {
-                if (ans > A[i]) {
-                    ans = A[i];
-                }
+    int solution2(int[] A) {
+        int ans = 0;
+        for (int i = 1; i < A.length; i++) {
+            if (ans > A[i]) {
+                ans = A[i];
             }
-            return ans;
         }
+        return ans;
     }
+}
 
 

@@ -3,6 +3,9 @@
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -23,9 +26,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rou.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_M4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_0_0_M4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_0_0_M4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_M2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interestingChallenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interestingChallenges.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CodilityProgramsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CodilityProgramsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Distinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/DominatorIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/DominatorIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ExtraChracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ExtraChracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Leader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/MaxProductOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/MaxProductOfThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Merge2SortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Merge2SortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/MissingIntegeer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/MissingIntegeer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ReverseLetterInWordsInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ReverseLetterInWordsInSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ReverseWordsInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ReverseWordsInSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RotateMat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RotateMat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/RotateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/RotateString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/StackSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/StackSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ValidParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ValidParanthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/trackr/codilityPrograms/leetChallenges/AnagramsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trackr/codilityPrograms/leetChallenges/AnagramsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +123,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -115,7 +155,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array3Stacks">
+  <component name="RunManager" selected="Application.ValidParanthesis">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -151,30 +191,8 @@
       <module />
       <method />
     </configuration>
-    <configuration name="Array3Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array3Stacks" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.ExceptionExample" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.trackr.codilityPrograms.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.MainClass" />
+    <configuration name="ReverseLetterInWordsInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.ReverseLetterInWordsInSentence" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -187,8 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateMat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.RotateMat" />
+    <configuration name="ReverseWordsInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.ReverseWordsInSentence" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -201,13 +219,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.TicTacToe" />
+    <configuration name="StackSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.leetChallenges.StackSimple" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.timepass.challenges.*" />
+          <option name="PATTERN" value="com.trackr.codilityPrograms.leetChallenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.leetChallenges.ThreeSum" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.leetChallenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.leetChallenges.ValidParanthesis" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.leetChallenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,47 +285,12 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="temperatureconverter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -304,22 +315,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.ExceptionExample" />
-      <item itemvalue="Application.MainClass" />
-      <item itemvalue="Application.RotateMat" />
-      <item itemvalue="Application.TicTacToe" />
-      <item itemvalue="Application.Array3Stacks" />
+      <item itemvalue="Application.ReverseLetterInWordsInSentence" />
+      <item itemvalue="Application.ReverseWordsInSentence" />
+      <item itemvalue="Application.StackSimple" />
+      <item itemvalue="Application.ThreeSum" />
+      <item itemvalue="Application.ValidParanthesis" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Array3Stacks" />
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.ExceptionExample" />
-        <item itemvalue="Application.RotateMat" />
+        <item itemvalue="Application.ValidParanthesis" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.StackSimple" />
+        <item itemvalue="Application.ReverseWordsInSentence" />
+        <item itemvalue="Application.ReverseLetterInWordsInSentence" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -332,6 +344,8 @@
       <updated>1492037284529</updated>
       <workItem from="1525198125101" duration="2505000" />
       <workItem from="1525292746785" duration="778000" />
+      <workItem from="1642792667914" duration="59000" />
+      <workItem from="1642797568271" duration="16907000" />
     </task>
     <servers />
   </component>
@@ -371,7 +385,7 @@
     <option name="totallyTimeSpent" value="3283000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -383,12 +397,7 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="390" y="264" key="new project wizard" timestamp="1610981961666">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="390" y="264" key="new project wizard/0.23.1920.1057@0.23.1920.1057" timestamp="1610981961666" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -420,17 +429,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/TwoSum.java</url>
-          <line>40</line>
+          <line>38</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/TwoSum.java</url>
-          <line>18</line>
+          <line>16</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ThreeSum.java</url>
-          <line>41</line>
+          <line>65</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -450,17 +459,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/CodilityProgramsMain.java</url>
-          <line>76</line>
+          <line>81</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/DominatorIndex.java</url>
-          <line>22</line>
+          <line>27</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java</url>
-          <line>47</line>
+          <line>48</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -472,6 +481,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/Anagrams.java</url>
           <line>17</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ValidParanthesis.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
