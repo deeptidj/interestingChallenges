@@ -8,8 +8,26 @@ import java.util.HashSet;
  */
 public class SmallestPositiveNotInArray {
     public static void main(String[] args) {
-        System.out.println("Codility Programs");
+        System.out.println("Programs");
+
         SmallestPositiveNotInArray c = new SmallestPositiveNotInArray();
+
+        int[] arr = {1,54,54,54,0,32};
+        int res = c.countUniqueElementsInArrayWithoutSorting(arr);
+        System.out.println("4 == "+res);
+
+        arr = new int[]{};
+        res = c.countUniqueElementsInArrayWithoutSorting(arr);
+        System.out.println("Empty == "+res);
+
+        arr = null;
+        res = c.countUniqueElementsInArrayWithoutSorting(arr);
+        System.out.println("null == "+ res);
+
+        arr = new int[]{-1,-2,-3,5,0,1,-1};
+        res = c.countUniqueElementsInArrayWithoutSorting(arr);
+        System.out.println("6 == "+res);
+
         int[] A = new int[]{1, 2, 3, 4, 5};Arrays.sort(A);
         System.out.println(Arrays.toString(A));
         System.out.print("6 == " +c.smallestPositiveNoNotInArray(A)+ " ");
@@ -24,9 +42,6 @@ public class SmallestPositiveNotInArray {
         System.out.println(c.solutionUniqueValuesInArray(A));
 
         System.out.println();
-        int[] arr = {1,54,54,54,0,32};
-        int res = c.countUniqueElementsInArrayWithoutSorting(arr);
-        System.out.println(res);
 
         System.out.println("*******");
         System.out.println("Maximum number in an Array "+ maxInArray(new int[]{1,2,6,4,5,8,9,7,12}));
@@ -81,6 +96,7 @@ public class SmallestPositiveNotInArray {
     Count no. of unique elements in a given array
      */
     public int countUniqueElementsInArrayWithoutSorting(int[] arr){
+        if (arr == null) return -1;
         int count;
         HashSet<Integer> hs = new HashSet<>();
         for (int j : arr) {
