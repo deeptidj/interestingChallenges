@@ -27,9 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/SmallestPositiveNotInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/SmallestPositiveNotInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CodilityProgramsMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/leetChallenges/ValidParanthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmallestPositiveNotInArray">
+  <component name="RunManager" selected="Application.CyclicRotation">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -161,8 +160,8 @@
       <module />
       <method />
     </configuration>
-    <configuration name="ReverseWordsInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.ReverseWordsInSentence" />
+    <configuration name="CyclicRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.CyclicRotation" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -285,19 +284,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.ReverseWordsInSentence" />
       <item itemvalue="Application.StackSimple" />
       <item itemvalue="Application.ThreeSum" />
       <item itemvalue="Application.ValidParenthesis" />
       <item itemvalue="Application.SmallestPositiveNotInArray" />
+      <item itemvalue="Application.CyclicRotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicRotation" />
         <item itemvalue="Application.SmallestPositiveNotInArray" />
         <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.StackSimple" />
-        <item itemvalue="Application.ReverseWordsInSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +317,7 @@
       <workItem from="1642797568271" duration="16907000" />
       <workItem from="1642983617552" duration="293000" />
       <workItem from="1642983914920" duration="55000" />
-      <workItem from="1642984003143" duration="1139000" />
+      <workItem from="1642984003143" duration="3496000" />
     </task>
     <servers />
   </component>
@@ -441,7 +440,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java</url>
-          <line>48</line>
+          <line>50</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

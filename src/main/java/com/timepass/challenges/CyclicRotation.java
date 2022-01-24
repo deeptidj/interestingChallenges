@@ -1,28 +1,30 @@
 package com.timepass.challenges;
 
 /**
- * Created by deepti on 9/28/19.
+ * Created by Deep on 9/28/19.
  */
 public class CyclicRotation {
     public static void main(String[] args) {
-        // int[] A = {3,8,9,7,6};
-
-        int[] A = {1, 2, 3, 4};
-
         CyclicRotation c = new CyclicRotation();
-        // System.out.println(c.solution(4));
-        c.solution(A, 1);
-        for (int i = 0; i < A.length; i++) {
-            System.out.println("Array element at position: " + i + " is " + A[i]);
+        int[] A = {1, 2, 3, 4};
+        // {1, 2, 1, 4} temp = 3
+        int[] B = {3, 4, 1, 2};
+        int k = 1;
+        int shift = k % A.length;
+        System.out.println("shift by = "+shift);
+
+        for (int i = args.length; i >= 0; i--) {
+            // i = 4, 3,
+           int newPos = (i+1) % A.length; // 0
+            int temp = A[newPos]; // 4
+           A[newPos] = A[i]; // 3, 2, 3, 1
+            A[i] = temp; // 3, 2, 4, 1
         }
-        //c.solution(4);
-        // c.solution(1);
-        //  c.solution(2);
-//
-        // c.solution(100);
-//
-//        c.solution(0);
-        //  c.solution2(A);
+
+        for (int i : A) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
 
     public int[] solution(int[] A, int k) {
