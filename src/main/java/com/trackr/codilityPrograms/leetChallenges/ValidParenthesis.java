@@ -4,9 +4,9 @@ package com.trackr.codilityPrograms.leetChallenges;
 import java.util.Stack;
 
 /**
- * Created by deepti on 3/14/18.
+ * Created by Deep on 3/14/18.
  */
-public class ValidParanthesis {
+public class ValidParenthesis {
     /*
     Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -15,36 +15,36 @@ public class ValidParanthesis {
     public static void main(String[] args) {
 
         String s = "{}";
-        System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("true : "+ validParanthesis(s));
+        System.out.println("Valid Parenthesis for s = "+s);
+        System.out.println("true : "+ validParenthesis(s));
 
         s = " {}()[]{}";
-        System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("true : "+ validParanthesis(s));
+        System.out.println("Valid Parenthesis for s = "+s);
+        System.out.println("true : "+ validParenthesis(s));
 
         s = "({";
-        System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validParanthesis(s));
+        System.out.println("Valid Parenthesis for s = "+s);
+        System.out.println("false : "+ validParenthesis(s));
 
         s = "(}";
-        System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validParanthesis(s));
+        System.out.println("Valid Parenthesis for s = "+s);
+        System.out.println("false : "+ validParenthesis(s));
 
         s = ")";
-        System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validParanthesis(s));
+        System.out.println("Valid Parenthesis for s = "+s);
+        System.out.println("false : "+ validParenthesis(s));
 
         s = "{]  ";
-        System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validParanthesis(s));
+        System.out.println("Valid Parenthesis for s = "+s);
+        System.out.println("false : "+ validParenthesis(s));
 
         s = "{][}()";
-        System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validParanthesis(s));
+        System.out.println("Valid Parenthesis for s = "+s);
+        System.out.println("false : "+ validParenthesis(s));
 
     }
     // String input is strictly brackets.
-    public static boolean validParanthesis(String str) {
+    public static boolean validParenthesis(String str) {
         char[] arr= str.trim().toCharArray();
         System.out.println();
         Stack<Character> stack = new Stack<>();

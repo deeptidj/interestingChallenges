@@ -11,7 +11,7 @@ public class CodilityProgramsMain {
         System.out.println("Codility Programs");
         CodilityProgramsMain c = new CodilityProgramsMain();
         int[] A = new int[]{1, 2, 3, 4, 5};Arrays.sort(A);
-        System.out.println(A);
+        System.out.println(Arrays.toString(A));
         System.out.print("6 == " +c.smallestPositiveNoNotInArray(A)+ " ");
         System.out.println();
         A = new int[]{-1,-2,-3};Arrays.sort(A);
@@ -51,7 +51,7 @@ public class CodilityProgramsMain {
     each element of array A is an integer within the range [−1,000,000..1,000,000].
     */
     public int smallestPositiveNoNotInArray(int[] arr) {
-        int res=0;
+
         for (int i = 0; i < arr.length-1 ; i++) {
             if (arr[i] < 0 || arr[i] == arr[i+1] || (arr[i] == arr[i]+1) ) continue;
             return arr[i] +1;
