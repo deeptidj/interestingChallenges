@@ -26,12 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CodilityProgramsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CodilityProgramsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ArrayListsBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ArrayListsBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ValidParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ValidParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CodilityProgramsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/SmallestPositiveNotInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,6 +313,7 @@
       <workItem from="1642797568271" duration="16907000" />
       <workItem from="1642983617552" duration="293000" />
       <workItem from="1642983914920" duration="55000" />
+      <workItem from="1642984003143" duration="602000" />
     </task>
     <servers />
   </component>
@@ -431,11 +428,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Codility.java</url>
           <line>68</line>
           <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/CodilityProgramsMain.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/DominatorIndex.java</url>

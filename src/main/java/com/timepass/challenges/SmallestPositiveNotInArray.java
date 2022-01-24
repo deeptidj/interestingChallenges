@@ -4,12 +4,12 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- * Created by deepti on 9/22/19.
+ * Created by Deep on 9/22/19.
  */
-public class CodilityProgramsMain {
+public class SmallestPositiveNotInArray {
     public static void main(String[] args) {
         System.out.println("Codility Programs");
-        CodilityProgramsMain c = new CodilityProgramsMain();
+        SmallestPositiveNotInArray c = new SmallestPositiveNotInArray();
         int[] A = new int[]{1, 2, 3, 4, 5};Arrays.sort(A);
         System.out.println(Arrays.toString(A));
         System.out.print("6 == " +c.smallestPositiveNoNotInArray(A)+ " ");
@@ -25,12 +25,17 @@ public class CodilityProgramsMain {
 
         System.out.println();
         int[] arr = {1,54,54,54,0,32};
-        int res = c.solCountUniqueElementsInArrayWithoutSorting(arr);
+        int res = c.countUniqueElementsInArrayWithoutSorting(arr);
         System.out.println(res);
+
+        System.out.println("*******");
+        System.out.println("Maximum number in an Array "+ maxInArray(new int[]{1,2,6,4,5,8,9,7,12}));
     }
 
-
-    public int maxInArray(int[] A) {
+    /*
+    Find the maximum number in a given array of integers.
+     */
+    public static int maxInArray(int[] A) {
         int maxInArray = A[0];
         for (int i = 0; i < A.length - 1; i++) {
             maxInArray = Math.max(maxInArray, A[i]);
@@ -59,20 +64,6 @@ public class CodilityProgramsMain {
         return arr[arr.length-1] > 0 ? arr[arr.length-1]+1 : 1;
     }
 
-    public int solutionPassingCars(int[] A) {
-        int count = 0;
-        for (int i = 0; i < A.length; i++) {
-            if (A[i] == 0) {
-                for (int j = i + 1; j < A.length; j++) {
-                    if (A[j] == 1) {
-                        count++;
-                    }
-                }
-            }
-        }
-        return count;
-    }
-
     //Count the no. of unique elements in the array
     public int solutionUniqueValuesInArray(int[] A) {
 
@@ -85,11 +76,15 @@ public class CodilityProgramsMain {
         }
         return result;
     }
-    public int solCountUniqueElementsInArrayWithoutSorting(int[] arr){
-        int count = 0;
+
+    /*
+    Count no. of unique elements in a given array
+     */
+    public int countUniqueElementsInArrayWithoutSorting(int[] arr){
+        int count;
         HashSet<Integer> hs = new HashSet<>();
-        for (int i = 0; i < arr.length; i++) {
-            hs.add(arr[i]);
+        for (int j : arr) {
+            hs.add(j);
         }
         count = hs.size();
         System.out.println("Unique elements = "+count);
