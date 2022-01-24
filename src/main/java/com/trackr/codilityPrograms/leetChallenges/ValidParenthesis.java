@@ -12,46 +12,45 @@ public class ValidParanthesis {
 
     The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
      */
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         String s = "{}";
         System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("true : "+ validPara(s));
+        System.out.println("true : "+ validParanthesis(s));
 
         s = " {}()[]{}";
         System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("true : "+ validPara(s));
+        System.out.println("true : "+ validParanthesis(s));
 
         s = "({";
         System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validPara(s));
+        System.out.println("false : "+ validParanthesis(s));
 
         s = "(}";
         System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validPara(s));
+        System.out.println("false : "+ validParanthesis(s));
 
         s = ")";
         System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validPara(s));
+        System.out.println("false : "+ validParanthesis(s));
 
         s = "{]  ";
         System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validPara(s));
+        System.out.println("false : "+ validParanthesis(s));
 
         s = "{][}()";
         System.out.println("Valid Paranthesis for s = "+s);
-        System.out.println("false : "+ validPara(s));
+        System.out.println("false : "+ validParanthesis(s));
 
     }
     // String input is strictly brackets.
-    public static boolean validPara(String str) {
+    public static boolean validParanthesis(String str) {
         char[] arr= str.trim().toCharArray();
         System.out.println();
-        Stack<Character> stack = new Stack<Character>();
+        Stack<Character> stack = new Stack<>();
         for (char c : arr) {
             if (c == '{' || c == '[' || c == '(') {
                 stack.push(c);
-                continue;
             } else if (!stack.isEmpty()) {
                 if (stack.peek() == '{' && c != '}'){
                     return false;
@@ -65,43 +64,8 @@ public class ValidParanthesis {
             }
         }
 
-        if (stack.isEmpty()) return true;
-        else return false;
+        return stack.isEmpty();
     }
 
-    public static boolean validParanthesis(String str) {
-        MyCharStack st = new MyCharStack(10);
-
-        char[] arr_s = str.toCharArray();
-        for (int i = 0; i < arr_s.length; i++) {
-            char c = arr_s[i];
-            if (c == '{' || c == '[' || c == '(') {
-                st.push(c);
-                continue;
-            }
-
-            if (c == '}') {
-                if (st.peek() != '{' && st.size == 0) {
-                    return false;
-                }
-            }
-            if (c == ']') {
-                if (st.peek() != '[' && st.size == 0) {
-                    return false;
-                }
-            }
-            if (c == ')') {
-                if (st.peek() != '(' && st.size == 0) {
-                    return false;
-                }
-            }
-            st.pop();
-            if (!st.isEmpty()) {
-                return false;
-            }
-
-        }
-        return true;
-    }
 }
 
