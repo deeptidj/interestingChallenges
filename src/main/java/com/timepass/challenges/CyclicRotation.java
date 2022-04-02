@@ -6,19 +6,23 @@ package com.timepass.challenges;
 public class CyclicRotation {
     public static void main(String[] args) {
         CyclicRotation c = new CyclicRotation();
-        int[] A = {1, 2, 3, 4};
-        // {1, 2, 1, 4} temp = 3
-        int[] B = {3, 4, 1, 2};
-        int k = 1;
-        int shift = k % A.length;
-        System.out.println("shift by = "+shift);
+        int[] A = {1, 2, 3, 4};// 3,4,1,2
+        // 0 + 2 % 4 = 2
+        // 1 + 2 % 4 = 3
+        // 2 + 2 % 4 = 0
+        // 3 + 2 % 4 = 1
 
+        // Final after cyclic rotation => 3, 4 ,1 , 2
+        int[] B = {3, 4, 1, 2};
+
+        int k = 2;
+        int len = A.length;
         for (int i = args.length; i >= 0; i--) {
-            // i = 4, 3,
-           int newPos = (i+1) % A.length; // 0
-            int temp = A[newPos]; // 4
-           A[newPos] = A[i]; // 3, 2, 3, 1
-            A[i] = temp; // 3, 2, 4, 1
+            // shift by k positions
+           int newPos = (i+k) % len; //
+            int temp = A[newPos]; //
+           A[newPos] = A[i]; //
+            A[i] = temp; //
         }
 
         for (int i : A) {

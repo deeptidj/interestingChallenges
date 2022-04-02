@@ -26,6 +26,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/MoveZerosToLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/ReverseWordsInSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/StringSegmentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/CloneEvenNumbersInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/DutchNationalFLag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FindInsertionIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/KadaneMaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/MovingZeroesToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/MovingZerosToBegining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PermutationsOf3InArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PrefixSums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/ReverseInPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/ReverseTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/ReverseWordsInSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/SumSubArrayTargetX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/SumTargetX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/TwoSumProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedListProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/AllSubSetsOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/Mnemonics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/PermutationsUsingAuxillaryBuffRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RecursionExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" afterDir="false" />
@@ -59,6 +90,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -76,9 +115,6 @@
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -124,7 +160,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicRotation">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -160,8 +196,22 @@
       <module />
       <method />
     </configuration>
-    <configuration name="CyclicRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.CyclicRotation" />
+    <configuration name="AllSubSetsOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.recursion.AllSubSetsOfArray" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewCamp.problems.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.Factorial" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -174,55 +224,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestPositiveNotInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.SmallestPositiveNotInArray" />
+    <configuration name="PermutationsOf3InArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.PermutationsOf3InArray" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewCamp.problems.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationsUsingAuxillaryBuffRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.recursion.PermutationsUsingAuxillaryBuffRecursion" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewCamp.problems.linkedListProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.RecursionExamples" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.timepass.challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.leetChallenges.StackSimple" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.trackr.codilityPrograms.leetChallenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.leetChallenges.ThreeSum" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.trackr.codilityPrograms.leetChallenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.leetChallenges.ValidParenthesis" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.trackr.codilityPrograms.leetChallenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +320,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.StackSimple" />
-      <item itemvalue="Application.ThreeSum" />
-      <item itemvalue="Application.ValidParenthesis" />
-      <item itemvalue="Application.SmallestPositiveNotInArray" />
-      <item itemvalue="Application.CyclicRotation" />
+      <item itemvalue="Application.PermutationsUsingAuxillaryBuffRecursion" />
+      <item itemvalue="Application.PermutationsOf3InArray" />
+      <item itemvalue="Application.RecursionExamples" />
+      <item itemvalue="Application.AllSubSetsOfArray" />
+      <item itemvalue="Application.Factorial" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CyclicRotation" />
-        <item itemvalue="Application.SmallestPositiveNotInArray" />
-        <item itemvalue="Application.ValidParenthesis" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.StackSimple" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.PermutationsUsingAuxillaryBuffRecursion" />
+        <item itemvalue="Application.AllSubSetsOfArray" />
+        <item itemvalue="Application.RecursionExamples" />
+        <item itemvalue="Application.PermutationsOf3InArray" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +353,20 @@
       <workItem from="1642797568271" duration="16907000" />
       <workItem from="1642983617552" duration="293000" />
       <workItem from="1642983914920" duration="55000" />
-      <workItem from="1642984003143" duration="3496000" />
+      <workItem from="1642984003143" duration="3814000" />
+      <workItem from="1643082850693" duration="1033000" />
+      <workItem from="1643916064709" duration="17000" />
+      <workItem from="1645955103102" duration="3644000" />
+      <workItem from="1646078642851" duration="1185000" />
+      <workItem from="1646164096704" duration="455000" />
+      <workItem from="1646441509669" duration="2697000" />
+      <workItem from="1646785955524" duration="4017000" />
+      <workItem from="1647017767501" duration="16924000" />
+      <workItem from="1647810675491" duration="609000" />
+      <workItem from="1648596216940" duration="19273000" />
+      <workItem from="1648752047117" duration="183000" />
+      <workItem from="1648754551688" duration="10953000" />
+      <workItem from="1648848856240" duration="7307000" />
     </task>
     <servers />
   </component>
@@ -440,7 +489,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java</url>
-          <line>50</line>
+          <line>54</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -457,6 +506,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ValidParenthesis.java</url>
           <line>53</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/SumSubArrayTargetX.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/BinarySearch.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/BinarySearch.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PermutationsOf3InArray.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PermutationsOf3InArray.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
