@@ -1,5 +1,6 @@
 package com.trackr.codilityPrograms.java;
 
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -17,5 +18,11 @@ public class LinkedHashMapBasics {
         for(Map.Entry me:lhm.entrySet()) {
             System.out.println(me);
         }
+        Iterator iterator = lhm.entrySet().iterator();
+        while(iterator.hasNext()) {
+            System.out.println("Next value = "+iterator.next());
+        }
+
+
     }
 }

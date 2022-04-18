@@ -26,11 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsCharUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IsCharUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OddOccurencesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OddOccurencesInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ArrayListsBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ArrayListsBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ExceptionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/LinkedHashMapBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/LinkedHashMapBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/LinkedListBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/LinkedListBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/TreeMapBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/TreeMapBasics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.TreeMapBasics">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -167,34 +168,72 @@
       <module />
       <method />
     </configuration>
-    <configuration name="Array3Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array3Stacks" />
+    <configuration name="ArrayListsBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.ArrayListsBasics" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array3StacksGrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array3StacksGrow" />
+    <configuration name="ExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.ExceptionExample" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsCharUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IsCharUnique" />
+    <configuration name="LinkedHashMapBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.LinkedHashMapBasics" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
+    <configuration name="LinkedListBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.LinkedListBasics" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.java.TreeMapBasics" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trackr.codilityPrograms.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,20 +249,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.graphs.dfs" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewCamp.problems.graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,19 +292,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.dfs" />
-      <item itemvalue="Application.Array3Stacks" />
-      <item itemvalue="Application.Array3StacksGrow" />
-      <item itemvalue="Application.IsCharUnique" />
-      <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.ArrayListsBasics" />
+      <item itemvalue="Application.ExceptionExample" />
+      <item itemvalue="Application.LinkedHashMapBasics" />
+      <item itemvalue="Application.LinkedListBasics" />
+      <item itemvalue="Application.TreeMapBasics" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.IsCharUnique" />
-        <item itemvalue="Application.Array3StacksGrow" />
-        <item itemvalue="Application.Array3Stacks" />
-        <item itemvalue="Application.dfs" />
+        <item itemvalue="Application.TreeMapBasics" />
+        <item itemvalue="Application.LinkedListBasics" />
+        <item itemvalue="Application.LinkedHashMapBasics" />
+        <item itemvalue="Application.ExceptionExample" />
+        <item itemvalue="Application.ArrayListsBasics" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +342,7 @@
       <workItem from="1649354257488" duration="3000" />
       <workItem from="1649369802558" duration="10567000" />
       <workItem from="1649899603002" duration="1535000" />
-      <workItem from="1650071522416" duration="16692000" />
+      <workItem from="1650071522416" duration="20917000" />
     </task>
     <servers />
   </component>

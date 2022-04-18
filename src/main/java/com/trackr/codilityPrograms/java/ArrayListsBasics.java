@@ -19,6 +19,27 @@ public class ArrayListsBasics {
 
         System.out.println(sList);
 
+        //Create an ArrayList of String and print them
+        ArrayList<String> listOfStrings = new ArrayList<>();
+        listOfStrings.add("Deepti");
+        listOfStrings.add("Deepansh");
+        listOfStrings.add("Deepesh");
+        for(String s : listOfStrings) {
+            System.out.println(s);
+        }
+        //Can print with the sout and it will handle printing it.
+        System.out.println(listOfStrings);
+
+        //Removing a string that does not exist in the ArrayList
+        if (listOfStrings.remove("DeeptiDoesNotExists")) {
+            System.out.println("Successfully removed the string 'DeeptiDoesNotExists' ");
+        } else {
+            System.out.println("Failure to remove the string 'DeeptiDoesNotExists' ");
+        }
+
+        System.out.println("Printing listOfStrings");
+        System.out.println(listOfStrings);
+
         sList.remove("Deepti1");
         System.out.println(sList);
 
@@ -35,10 +56,25 @@ public class ArrayListsBasics {
             }
         }
 
+        for (String s :listOfStrings) {
+            if(s == "Deepti") {
+                System.out.println("Deepti is in the listOfStrings " + listOfStrings);
+            }
+        }
+
+        //Creating a new ArrayList from an array
+
+        ArrayList<String> listOfStringsFromArray = new ArrayList<>(Arrays.asList("FromArray1", "FromArray2", "FromArray3"));
+        System.out.println("List of String from Array = "+listOfStringsFromArray);
+
         ArrayList<String> obj = new ArrayList<>(
                 Arrays.asList("Pratap", "Peter", "Harsh"));
         System.out.println("Elements are:"+obj);
 
+        Iterator ite = obj.iterator();
+        while(ite.hasNext()) {
+            System.out.println(ite.next()+" ; ");
+        }
 
         ArrayList<String> cities = new ArrayList<>(){{
             add("Delhi");
@@ -60,26 +96,33 @@ public class ArrayListsBasics {
         //LOOPING
         Iterator it = intlist.iterator();
         while(it.hasNext()){
-            System.out.println("ITrator :"+it.next());
+            System.out.println("Iterator :"+it.next());
         }
 
 
-        ArrayList<String> arrayList = new ArrayList<String>();
-        arrayList.add("Deepti1");
-        arrayList.add("Deepti2");
-        arrayList.add("Deepti3");
-        arrayList.add("Deepti4");
-        arrayList.add("Deepti11");
-        arrayList.add("Deepti12");
-        arrayList.add("Deepti13");
-        arrayList.add("Deepti14");
+        ArrayList<String> arrayList = new ArrayList<String>(Collections.nCopies(10, "Deepti Jain, you can do it !"));
+
         // Get the Enumeration object
         Enumeration<String> e = Collections.enumeration(arrayList);
 
         // Enumerate through the ArrayList elements
         System.out.println("ArrayList elements: Iterating through enumeration :s");
-        while(e.hasMoreElements())
-            System.out.println(e.nextElement());
+        while(e.hasMoreElements()) System.out.println(e.nextElement());
+
+        listOfStrings.addAll(listOfStringsFromArray);
+        listOfStrings.add("zzz");
+
+        Iterator iterator = listOfStrings.iterator();
+        while(iterator.hasNext()) System.out.println("First time = "+iterator.next());
+
+        Collections.sort(listOfStrings);
+        iterator = listOfStrings.iterator();
+        while(iterator.hasNext()) System.out.println("Second time = "+iterator.next());
+
+        Collections.reverse(listOfStrings);
+        iterator = listOfStrings.iterator();
+        while(iterator.hasNext()) System.out.println("Third time "+iterator.next());
+
     }
 
 

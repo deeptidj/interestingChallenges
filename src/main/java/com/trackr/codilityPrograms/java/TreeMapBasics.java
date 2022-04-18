@@ -10,9 +10,11 @@ import java.util.TreeMap;
 public class TreeMapBasics {
     public static void main(String[] args) {
         TreeMap<Integer, String> tm = new TreeMap<Integer, String>(Collections.reverseOrder());
+        tm.put(100,"zzzzd");
         tm.put(45,"for");
-        tm.put(100,"asdf");
+        tm.put(102,"asdf");
         tm.put(34,"dasd");
+
 
         for(Map.Entry me: tm.entrySet()){
             System.out.println(me.getKey());

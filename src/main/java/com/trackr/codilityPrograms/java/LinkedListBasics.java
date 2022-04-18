@@ -9,8 +9,8 @@ import java.util.LinkedList;
 public class LinkedListBasics {
     public static void main(String[] args) {
         LinkedList<String> ll = new LinkedList<String>();
-        ll.add("asdf");
-        ll.add("qwert");
+        ll.add("zag");
+        ll.add("aab");
 
 
         Iterator ite = ll.iterator();
@@ -18,13 +18,14 @@ public class LinkedListBasics {
             System.out.println(ite.next());
         }
 
-        ll.addFirst("1234");
+        ll.addFirst("zig");
         System.out.println("After adding: ");
 
         Iterator ite1 = ll.iterator();
         while(ite1.hasNext()){
             System.out.println(ite1.next());
         }
+
 
     }
 }
