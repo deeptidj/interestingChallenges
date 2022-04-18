@@ -19,7 +19,7 @@ public class ThreeSum {
     public static void main(String[] args) {
     int[] numbers = {-1, 0, 1, 2, -1, -4, 5};
     threeSum(numbers);
-    //    threeSum1(numbers);
+
     }
 
     public static void threeSum1(int[] nums) {

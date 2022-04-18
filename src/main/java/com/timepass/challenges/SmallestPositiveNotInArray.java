@@ -36,7 +36,13 @@ public class SmallestPositiveNotInArray {
         System.out.print("1 == " +c.smallestPositiveNoNotInArray(A)+ " ");
         System.out.println();
         A = new int[]{1, 2, 9};Arrays.sort(A);
-        System.out.print("3 == "+c.smallestPositiveNoNotInArray(A)+ " ");
+
+        A = new int[]{};Arrays.sort(A);
+        System.out.print("Null == "+c.smallestPositiveNoNotInArray(A)+ " ");
+
+        A = new int[]{1};Arrays.sort(A);
+        System.out.print("2 == "+c.smallestPositiveNoNotInArray(A)+ " ");
+
         System.out.println();
         System.out.println();Arrays.sort(A);
         System.out.println(c.solutionUniqueValuesInArray(A));
@@ -69,14 +75,23 @@ public class SmallestPositiveNotInArray {
     Write an efficient algorithm for the following assumptions:
     N is an integer within the range [1..100,000];
     each element of array A is an integer within the range [−1,000,000..1,000,000].
+    1,1,2,3,4,6
+    ( <0 || == || a[i+1] = a[i] + 1 ) continue;
+
+    return a[i] + 1;
     */
     public int smallestPositiveNoNotInArray(int[] arr) {
-
-        for (int i = 0; i < arr.length-1 ; i++) {
-            if (arr[i] < 0 || arr[i] == arr[i+1] || (arr[i] == arr[i]+1) ) continue;
-            return arr[i] +1;
+        if (arr == null || arr.length <= 1) {
+            System.out.println("Array is null or less than equal to an element");
+            return 0;
         }
-        return arr[arr.length-1] > 0 ? arr[arr.length-1]+1 : 1;
+        int i;
+        for (i = 0; i < arr.length-1 ; i++) {
+            if (arr[i] < 0 || arr[i] == arr[i+1] || (i+1 < arr.length-1) && (arr[i+1] == arr[i]+1) ) continue;
+        }
+        if (arr[i] < 0) return 1;
+        else if (arr[i] > arr[i-1] + 1  && arr.length >1) return (arr[i-1]+1);
+        else return arr[i] + 1;
     }
 
     //Count the no. of unique elements in the array

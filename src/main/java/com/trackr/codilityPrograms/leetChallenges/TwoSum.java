@@ -19,6 +19,11 @@ public class TwoSum {
 
 
       }
+
+      public static int[] twoSumBetter(int[] arr, int target) {
+
+        return new int[]{1,2};
+      }
         public static int[] twoSum(int[] nums, int target) {
 
             HashMap<Integer, Integer> map = new HashMap<>(nums.length);

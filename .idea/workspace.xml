@@ -27,8 +27,22 @@
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/IsomorphicStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ReplaceSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Distinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ExtraChracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/ExtraCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/MissingIntegeer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/MissingIntegeer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RotateMat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/SmallestPositiveNotInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/SmallestPositiveNotInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/Distinct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/Distinct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/ExtraChracter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/MissingIntegeer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/MissingIntegeer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/RotateMat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/SmallestPositiveNotInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/SmallestPositiveNotInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/leetChallenges/ReplaceSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/leetChallenges/ReplaceSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/leetChallenges/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/leetChallenges/TwoSum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +143,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReplaceSpace">
+  <component name="RunManager" selected="Application.SmallestPositiveNotInArray">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -165,37 +179,27 @@
       <module />
       <method />
     </configuration>
-    <configuration name="HelloWorldReadFromUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.lyndaJavaEssential.HelloWorldReadFromUser" />
+    <configuration name="Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.Distinct" />
       <module name="interestingChallenges" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;20&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trackr.codilityPrograms.lyndaJavaEssential.*" />
+          <option name="PATTERN" value="com.timepass.challenges.ExtraCharacter" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.sorting.InsertionSort" />
+    <configuration name="Leader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.Leader" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trackr.codilityPrograms.sorting.*" />
+          <option name="PATTERN" value="com.timepass.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,13 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trackr.codilityPrograms.sorting.SelectionSort" />
+    <configuration name="SmallestPositiveNotInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.SmallestPositiveNotInArray" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trackr.codilityPrograms.sorting.*" />
+          <option name="PATTERN" value="com.timepass.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,19 +303,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.HelloWorldReadFromUser" />
-      <item itemvalue="Application.InsertionSort" />
-      <item itemvalue="Application.SelectionSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.ReplaceSpace" />
+      <item itemvalue="Application.Distinct" />
+      <item itemvalue="Application.Leader" />
+      <item itemvalue="Application.SmallestPositiveNotInArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallestPositiveNotInArray" />
+        <item itemvalue="Application.Leader" />
+        <item itemvalue="Application.Distinct" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.HelloWorldReadFromUser" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +353,7 @@
       <workItem from="1649354257488" duration="3000" />
       <workItem from="1649369802558" duration="10567000" />
       <workItem from="1649899603002" duration="1535000" />
-      <workItem from="1650071522416" duration="30478000" />
+      <workItem from="1650071522416" duration="34683000" />
     </task>
     <servers />
   </component>
@@ -412,7 +416,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/TwoSum.java</url>
-          <line>38</line>
+          <line>43</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -447,7 +451,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java</url>
-          <line>54</line>
+          <line>55</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

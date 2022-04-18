@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by deepti on 1/16/20.
  */
-public class ExtraChracter {
+public class ExtraCharacter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter s1");
@@ -20,11 +20,11 @@ public class ExtraChracter {
         HashMap<Character, Integer> h = new HashMap<Character, Integer>();
 
 
-        char c;
+        Character c;
         for (int i = 0; i < s1.length(); i++) {
             c = s1.charAt(i);
-            if (!h.containsKey(c)) h.put(c, 1);
-            else h.put(c, h.get(c) + 1);
+            h.put(c, h.getOrDefault(c,0)+1);
+
         }
 
         for (int i = 0; i < s2.length(); i++) {
