@@ -5,15 +5,15 @@ package com.trackr.codilityPrograms.binaryTree;
  */
 public class TreeNode {
     private int data;
-    private TreeNode leftchild;
+    private TreeNode leftChild;
     private TreeNode rightChild;
 
-    public TreeNode getLeftchild() {
-        return leftchild;
+    public TreeNode getLeftChild() {
+        return leftChild;
     }
 
-    public void setLeftchild(TreeNode leftchild) {
-        this.leftchild = leftchild;
+    public void setLeftChild(TreeNode leftChild) {
+        this.leftChild = leftChild;
     }
 
     public int getData() {
@@ -36,11 +36,11 @@ public class TreeNode {
 
     public void insert(TreeNode n) {
         if (n.data <= this.data) {
-            if (this.leftchild == null) {
-                this.setLeftchild(n);
+            if (this.leftChild == null) {
+                this.setLeftChild(n);
             }
             else {
-                this.leftchild.insert(n);
+                this.leftChild.insert(n);
             }
         } else {
             if (this.rightChild == null) {
@@ -56,8 +56,8 @@ public class TreeNode {
         if (this.data == data) {
             return this;
         } else {
-            if (data < this.data && this.leftchild != null) {
-                return leftchild.findTree(data);
+            if (data < this.data && this.leftChild != null) {
+                return leftChild.findTree(data);
             } else {
                 if (this.rightChild != null)
                     return rightChild.findTree(data);
@@ -67,8 +67,8 @@ public class TreeNode {
     }
 
     public void inOrderTraversal() {
-        if (this.leftchild != null)
-            this.leftchild.inOrderTraversal();
+        if (this.leftChild != null)
+            this.leftChild.inOrderTraversal();
         System.out.println(" "+this.data);
         if (this.rightChild != null)
             this.rightChild.inOrderTraversal();

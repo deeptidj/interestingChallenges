@@ -26,24 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/sets/HashLinkedHashTreeSetExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/ArrayListsBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/lists/ArrayListsBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/HashMapBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/maps/HashMapBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/LinkedHashMapBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/maps/LinkedHashMapBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/LinkedListBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/lists/LinkedListBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/TreeMapBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/java/maps/TreeMapBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/lyndaJavaEssential/HelloWorldReadFromUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/lyndaJavaEssential/HelloWorldReadFromUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/binaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/binaryTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/binaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/binaryTree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/leetChallenges/ContainerWithMostWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trackr/codilityPrograms/sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/java/ArrayListsBasics$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/java/ArrayListsBasics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/java/HashMapBasics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/java/LinkedHashMapBasics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/java/LinkedListBasics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/trackr/codilityPrograms/java/TreeMapBasics.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +351,7 @@
       <workItem from="1649354257488" duration="3000" />
       <workItem from="1649369802558" duration="10567000" />
       <workItem from="1649899603002" duration="1535000" />
-      <workItem from="1650071522416" duration="24697000" />
+      <workItem from="1650071522416" duration="28150000" />
     </task>
     <servers />
   </component>

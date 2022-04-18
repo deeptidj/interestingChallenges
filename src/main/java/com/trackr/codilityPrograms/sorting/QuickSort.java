@@ -8,10 +8,39 @@ public class QuickSort {
 
     public static void main(String args[]) {
         printArray();
-        quickSort(arr, 0, arr.length-1);
+        quickSort1(arr, 0, arr.length-1);
         printArray();
 
     }
+
+    public static void quickSort1(int[] arr, int start, int end) {
+        while (start < end) {
+            int pivot = partition1(arr, start, end);
+            quickSort1(arr, start, pivot-1);
+            quickSort1(arr, pivot+1, end);
+        }
+    }
+    public static int partition1(int[] arr, int start, int end) {
+        int pivot = arr[end]; int i = start;
+        // 1,7,3,2,4 =>
+        int tmp;
+        for (int j = start; j < end; j++) {
+            if(arr[j] <= pivot) {
+                 tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+                i++;
+            }
+        }
+
+        tmp = arr[end];
+        arr[end] = arr[i];
+        arr[i] = tmp;
+
+
+        return i;
+    }
+
     public static void quickSort(int[] arr, int start, int end) {
         if (start < end) {
             int piv = partition(arr, start, end);

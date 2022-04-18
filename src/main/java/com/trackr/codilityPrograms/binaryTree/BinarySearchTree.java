@@ -17,7 +17,7 @@ public class BinarySearchTree {
         root.insert(n2);
         System.out.println(root.getData());
         System.out.println(root.getRightChild().getData());
-        System.out.println(root.getLeftchild().getData());
+        System.out.println(root.getLeftChild().getData());
 
     }
 
