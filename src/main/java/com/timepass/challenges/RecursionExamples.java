@@ -2,18 +2,38 @@ package com.timepass.challenges;
 
 public class RecursionExamples {
     public static void main(String[] args) {
-        int[] a = {11,22,33,44};
-        int[] buffer = new int[3];
-        int startIndex = 0 ; int bufferIndex = 0;
-        printCombos(a, buffer, startIndex, bufferIndex);
+        //Print all subsets of an array - {11,12} => [], [11], [12], [11, 12]
+        //int startIndex =0, bufferIndex = 0;
+        printSubSetsArray(new int[]{11,22}, new int[2], 0, 0);
 
-        try {
-            sayHi(10);
-        } catch (StackOverflowError ex) {
-            System.out.println(ex.getMessage()+ " add base case ");
+//        int[] a = {11,22,33,44};
+//        int[] buffer = new int[3];
+//        int startIndex = 0 ; int bufferIndex = 0;
+//        printCombos(a, buffer, startIndex, bufferIndex);
+//
+//        try {
+//            sayHi(10);
+//        } catch (StackOverflowError ex) {
+//            System.out.println(ex.getMessage()+ " add base case ");
+//        }
+
+    }
+    public static void printSubSetsArray(int[] a, int[] buffer, int startIndex, int bufferIndex) {
+        printBuffer(buffer, bufferIndex);
+
+        for (int i = startIndex; i < a.length; i++) {
+            buffer[bufferIndex] = a[i];
+            printSubSetsArray(a, buffer, startIndex+1, bufferIndex +1);
         }
 
     }
+    public static void printBuffer(int[] buffer, int bufferIndex) {
+        for(int i =0; i < bufferIndex; i++) {
+            System.out.print(buffer[i]+" ");
+        }
+    }
+
+
     public static void printCombos(int[] a, int[] buffer, int startIndex, int bufferIndex) {
         System.out.print("StartIndex = "+startIndex+" Buffer Index = "+bufferIndex+" ;");
         printBuffer(buffer);

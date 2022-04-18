@@ -1,30 +1,36 @@
+import java.util.ArrayList;
+
 /**
  * Created by deepti on 2/7/18.
  */
 public class Array3StacksGrow {
     //Describe how you could use a single array to implement three stacks
     int stackSize = 10;
+    ArrayList<Integer> arrayList = new ArrayList<>(stackSize*3);
     int[] arr = new int[stackSize *3];
 
     int[] tops ={0,0,0};
 
     void push(int stackNum, int value) {
-        int index = stackNum * (stackSize) + tops[stackNum];
+        int index = (stackNum * stackSize) + tops[stackNum];
         System.out.println("Pushing at " +index);
         tops[stackNum]++;
-        arr[index] = value;
+        arrayList.add(value);
     }
 
     int pop(int stackNum) {
-        int index = stackNum * (stackSize) + tops[stackNum];
+        int index = (stackNum * stackSize) + tops[stackNum];
+        if (arrayList.isEmpty()){
+            System.out.println("Empty");
+            return -1;
+        }
         tops[stackNum]--;
-        int value = arr[index];
-        System.out.println("Pushing at " +value);
-        arr[index] = 0;
+        int value = arrayList.get(index);
+        System.out.println("Popping " +value);
         return value;
     }
     void print3Stack() {
-        for(int a : arr) {
+        for(int a : arrayList) {
             System.out.println(" data : "+a);
         }
     }
@@ -32,14 +38,16 @@ public class Array3StacksGrow {
         System.out.println(" An array as three stacks ");
         Array3StacksGrow a = new Array3StacksGrow();
         a.push(0,10);
-        a.push(1,10);
-        a.push(2,10);
-        a.push(0,20);
-        a.push(1,20);
-        a.push(2,20);
-        a.push(0,30);
-        a.push(1,30);
-        a.push(2,30);
+
+        a.print3Stack();
+
+        for (int i = 0; i < 20; i++) {
+            a.push(0, i);
+        }
+
+        for (int i = 0; i < 20; i++) {
+            a.pop(0);
+        }
         a.print3Stack();
 
     }

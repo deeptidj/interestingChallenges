@@ -26,40 +26,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/MoveZerosToLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/ReverseWordsInSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/StringSegmentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/CloneEvenNumbersInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/DutchNationalFLag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FindInsertionIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/KadaneMaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/MovingZeroesToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/MovingZerosToBegining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PermutationsOf3InArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PrefixSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/ReverseInPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/ReverseTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/ReverseWordsInSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/SumSubArrayTargetX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/SumTargetX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/TwoSumProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedListProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/AllSubSetsOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/Mnemonics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/PermutationsUsingAuxillaryBuffRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RecursionExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_23_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LinkedHashTable/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LinkedHashTable/LRUCache1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LinkedHashTable/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/arraysAndStrings2/MaxDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/graphs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/graphs/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/graphs/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/graphs/dfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/twoDArrays/Rotate2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/twoDArrays/zigZagOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/CyclicRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/CyclicRotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interestingChallenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interestingChallenges.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Array3Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Array3Stacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Array3StacksGrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Array3StacksGrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedListProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/linkedListProblems/LinkedListProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RecursionExamplesMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RecursionExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/RecursionExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +149,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.Array3StacksGrow">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -196,13 +185,29 @@
       <module />
       <method />
     </configuration>
-    <configuration name="AllSubSetsOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.recursion.AllSubSetsOfArray" />
+    <configuration name="Array3Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array3Stacks" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array3StacksGrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array3StacksGrow" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.arraysAndStrings2.MaxDiff" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interviewCamp.problems.recursion.*" />
+          <option name="PATTERN" value="com.interviewCamp.problems.arraysAndStrings2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,55 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.Factorial" />
+    <configuration name="Rotate2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.twoDArrays.Rotate2DArray" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.timepass.challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationsOf3InArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.PermutationsOf3InArray" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewCamp.problems.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationsUsingAuxillaryBuffRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.recursion.PermutationsUsingAuxillaryBuffRecursion" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interviewCamp.problems.linkedListProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursionExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.RecursionExamples" />
-      <module name="interestingChallenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.timepass.challenges.*" />
+          <option name="PATTERN" value="com.interviewCamp.problems.twoDArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,6 +240,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.graphs.dfs" />
+      <module name="interestingChallenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewCamp.problems.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -320,19 +297,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.PermutationsUsingAuxillaryBuffRecursion" />
-      <item itemvalue="Application.PermutationsOf3InArray" />
-      <item itemvalue="Application.RecursionExamples" />
-      <item itemvalue="Application.AllSubSetsOfArray" />
-      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.MaxDiff" />
+      <item itemvalue="Application.Rotate2DArray" />
+      <item itemvalue="Application.dfs" />
+      <item itemvalue="Application.Array3Stacks" />
+      <item itemvalue="Application.Array3StacksGrow" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.PermutationsUsingAuxillaryBuffRecursion" />
-        <item itemvalue="Application.AllSubSetsOfArray" />
-        <item itemvalue="Application.RecursionExamples" />
-        <item itemvalue="Application.PermutationsOf3InArray" />
+        <item itemvalue="Application.Array3StacksGrow" />
+        <item itemvalue="Application.Array3Stacks" />
+        <item itemvalue="Application.dfs" />
+        <item itemvalue="Application.Rotate2DArray" />
+        <item itemvalue="Application.MaxDiff" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +343,11 @@
       <workItem from="1648596216940" duration="19273000" />
       <workItem from="1648752047117" duration="183000" />
       <workItem from="1648754551688" duration="10953000" />
-      <workItem from="1648848856240" duration="7307000" />
+      <workItem from="1648848856240" duration="11538000" />
+      <workItem from="1649354257488" duration="3000" />
+      <workItem from="1649369802558" duration="10567000" />
+      <workItem from="1649899603002" duration="1535000" />
+      <workItem from="1650071522416" duration="10221000" />
     </task>
     <servers />
   </component>
@@ -523,16 +504,6 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/facebook/challenges/MergeIntervals.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java</url>
           <line>17</line>
           <option name="timeStamp" value="73" />
@@ -551,6 +522,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PermutationsOf3InArray.java</url>
           <line>5</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/twoDArrays/Rotate2DArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

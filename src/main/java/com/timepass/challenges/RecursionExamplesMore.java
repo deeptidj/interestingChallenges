@@ -1,6 +1,6 @@
 package com.timepass.challenges;
 
-public class Factorial {
+public class RecursionExamplesMore {
     public static void main(String[] args) {
         System.out.println("Factorial 4 : 24 == "+factorial(4));
         System.out.println("Reverse String abcd : dcba == "+reverseRecursion("abcd", "abcd".length()-1, new StringBuffer("")));

@@ -50,6 +50,25 @@ public class LinkedList {
         curr.next = newNode;
     }
 
+    Node delete(int n){
+        if (n==0) {
+            head = head.next;
+            return head;
+        }
+        Node curr = head; int count = 0;Node prev = head;
+
+        while(curr != null) {
+            if(count == n) {
+                prev.next = curr.next; //deleting node curr
+            }
+            count++;
+            prev = curr;
+            curr = curr.next;
+        }
+        return head;
+    }
+
+
     Node getNth(int n) {
         Node curr = this.head;
         int count = 0;
