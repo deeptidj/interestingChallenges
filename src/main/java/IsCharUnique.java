@@ -1,3 +1,5 @@
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Scanner;
 
 /**
@@ -5,22 +7,33 @@ import java.util.Scanner;
  */
 public class IsCharUnique {
     public static void main(String args[]) {
-//        Scanner scan = new Scanner(System.in);
-//        System.out.println("Enter a string to test the uniqueness of the characters");
-//        String input = scan.next();
-//        if (isCharUnique(input))
-//            System.out.println("Yes, all are unique characters");
-//        else
-//            System.out.println("No, all are not unique characters");
-//
-//
-//        System.out.println("Reverse a String");
-//        String t = reverse(input);
-//        System.out.print(t);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a string to test the uniqueness of the characters");
+        String input = scan.next();
+        if (isCharUnique(input))
+            System.out.println("Yes, all are unique characters");
+        else
+            System.out.println("No, all are not unique characters");
 
-//        int[] arr = {4,1,3};
-//        boolean res = isPermutation(arr);
-//        System.out.println("Given array is permutation - "+res);
+
+        if (areUniqueCharsUsingHashMap(input))
+            System.out.println("Yes, all are unique characters using the hashmap");
+        else
+            System.out.println("No, all are not unique characters using the hashmap");
+
+
+        if(areUniqueCharsUsingHashSet(input))
+            System.out.println("Yes, all  are unique characters using the hashset");
+        else
+            System.out.println("NO, all are unique character using the hasgset");
+
+        System.out.println("Reverse a String");
+        String t = reverse(input);
+        System.out.print(t);
+
+        int[] arr = {4,1,3};
+        boolean res = isPermutation(arr);
+        System.out.println("Given array is permutation - "+res);
 
 
         int[] arr1 ={3,4,4,6,1,4,4};
@@ -62,7 +75,7 @@ public class IsCharUnique {
 
         boolean[] char_set = new boolean[256];
 
-        for(int i =0; i < str.length();i++) {
+        for(int i =0; i < str.length(); i++) {
             int val = str.charAt(i);
             if (char_set[val]) return false;
             else char_set[val] = true;
@@ -70,6 +83,28 @@ public class IsCharUnique {
         }
         return true;
 
+    }
+
+    public static boolean areUniqueCharsUsingHashMap(String str) {
+        HashMap<Character, Boolean> char_map = new HashMap<Character, Boolean>();
+        for (int i = 0; i < str.length(); i++) {
+            if (char_map.get(str.charAt(i)) != null) {
+                return false;
+            }
+            char_map.put(str.charAt(i), true);
+        }
+        return true;
+    }
+
+    public static boolean areUniqueCharsUsingHashSet(String str) {
+        HashSet<Character> char_map = new HashSet<Character>();
+        for (int i = 0; i < str.length(); i++) {
+            Character c = str.charAt(i);
+            if (char_map.contains(c))
+                return false;
+            else char_map.add(c);
+        }
+        return true;
     }
 
 

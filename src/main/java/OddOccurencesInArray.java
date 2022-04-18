@@ -7,7 +7,7 @@ import java.util.Map;
 public class OddOccurencesInArray {
     public static void main(String[] args) {
 
-        System.out.print("Odd occurences in Array");
+        System.out.print("Odd occurrences in Array");
         oddOcc();
         frqInArray();
     }
