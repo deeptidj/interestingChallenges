@@ -33,7 +33,7 @@ public class HelloWorldReadFromUser {
         System.out.println("Pls enter your name");
         Scanner in = new Scanner(System.in);
         String name = in.next();
-        System.out.println("Your name is : " +name
-        );
+        System.out.println("Your name is : " +name);
+
     }
 }

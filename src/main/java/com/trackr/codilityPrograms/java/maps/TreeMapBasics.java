@@ -1,4 +1,4 @@
-package com.trackr.codilityPrograms.java;
+package com.trackr.codilityPrograms.java.maps;
 
 import java.util.Collections;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.trackr.codilityPrograms.java;
+package com.trackr.codilityPrograms.java.lists;
 
 import java.util.Iterator;
 import java.util.LinkedList;

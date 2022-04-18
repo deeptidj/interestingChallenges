@@ -1,4 +1,4 @@
-package com.trackr.codilityPrograms.java;
+package com.trackr.codilityPrograms.java.lists;
 
 import java.util.ArrayList;
 import java.util.*;
@@ -124,9 +124,6 @@ public class ArrayListsBasics {
         while(iterator.hasNext()) System.out.println("Third time "+iterator.next());
 
     }
-
-
-
 
     //Sorting
        /* Sort statement*/

@@ -9,13 +9,32 @@ public class SelectionSort {
         SelectionSort c = new SelectionSort();
         int[] A = {1,2,6,5,7,0};
 
-        c.printArray(A);
-        c.selectionSort(A);
+//        c.printArray(A);
+//        c.selectionSort(A);
+//
+//        System.out.println();
+//        c.printArray(A);
 
-        System.out.println();
-        c.printArray(A);
+        int[] res = selectionSort1(A);
+        for (int i = 0; i < res.length; i++) {
+            System.out.println(res[i]);
+        }
     }
 
+    public static int[] selectionSort1(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int min = i;
+            for (int j = i+1; j < arr.length; j++) {
+                if(arr[j] < arr[min]) {
+                    min = j;
+                }
+            }
+            int tmp = arr[min];
+            arr[min] = arr[i];
+            arr[i] = tmp;
+        }
+        return arr;
+    }
     public void printArray(int[] A) {
         for(int i=0;i< A.length;i++) {
             System.out.println(" Array Element :" +A[i]);

@@ -22,15 +22,16 @@ public class QuickSort {
 
     public static void printArray() {
         for(int i=0;i< arr.length;i++) {
-            System.out.println(" Array Element :" +arr[i]);
+            System.out.print(" " +arr[i]);
         }
+        System.out.println();
     }
 
     public static int partition(int[] arr, int start, int end) {
         int pivot = arr[end];
         int i = start;int t;
 
-        for(int j = start ;j < arr.length-1;j++) {
+        for(int j = start ;j < end;j++) {
             if (arr[j] <= pivot ) {
                 t = arr[i];
                 arr[i] = arr[j];

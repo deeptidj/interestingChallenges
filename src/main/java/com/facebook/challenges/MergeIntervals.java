@@ -1,7 +1,5 @@
 package com.facebook.challenges;
 
-import com.trackr.codilityPrograms.java.ArrayListsBasics;
-
 import java.util.*;
 
 public class MergeIntervals {
