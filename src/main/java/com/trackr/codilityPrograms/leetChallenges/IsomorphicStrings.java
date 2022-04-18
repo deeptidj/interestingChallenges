@@ -9,24 +9,25 @@ public class IsomorphicStrings {
     //Two strings str1 and str2 are called isomorphic
     // if there is a one to one mapping possible for every character of str1 to every character of str2.
     // And all occurrences of every character in ‘str1’ map to same character in ‘str2’
-    //str1 = "abcd"
-    //str2 = "zyxw"
+    //str1 = "abcda"
+    //str2 = "zyxwz"
 
     //  Input:  str1 = "aab", str2 = "xxy"
-//    Output: True
-//'a' is mapped to 'x' and 'b' is mapped to 'y'.
-//
-//    Input:  str1 = "aab", str2 = "xyz"
-//    Output: False
-//    One occurrence of 'a' in str1 has 'x' in str2 and
-//    other occurrence of 'a' has 'y'.
+    //  Output: True
+    //  'a' is mapped to 'x' and 'b' is mapped to 'y'.
+    //
+    //    Input:  str1 = "aab", str2 = "xyz"
+    //    Output: False
+    //    One occurrence of 'a' in str1 has 'x' in str2 and
+    //    other occurrence of 'a' has 'y'.
     public static void main(String[] args) {
         IsomorphicStrings c = new IsomorphicStrings();
        boolean res =  //c.isIsomorphicStrings("1234", "12");
         c.isIsomorphicStrings("aabcdabcd","xxyzwxyzw");
        // c.isIsomorphicStrings("aab","xyz");
         //c.isIsomorphicStrings("aabbc","xxzzz");
-        //c.isIsomorphicStrings("aab","xyz");
+        //c.isIsomorphicStrings("aab","xxy");
+        //c.isIsomorphicStrings("aba","xxy");
         //c.isIsomorphicStrings("aab","xyz");
         System.out.println(res);
     }

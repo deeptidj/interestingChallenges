@@ -6,15 +6,17 @@ package com.trackr.codilityPrograms.leetChallenges;
 public class ReplaceSpace {
     public static void main(String[] args) {
         ReplaceSpace c = new ReplaceSpace();
-        c.replaceString("a b c");
-        // newLength = %20 length + n * 2
+        String res = c.replaceString("a b c");
+        System.out.println(res);
     }
     String replaceString(String s){
-        if (s.equals("") || s.equals(null)) return "";
-
+        if (s == null || s.equals("")) return " ";
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
-
+            if(s.charAt(i) ==' ') {
+                sb.append("%20");
+            }
+            else sb.append(s.charAt(i));
         }
         return sb.toString();
     }
