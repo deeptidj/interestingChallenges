@@ -1,4 +1,4 @@
-package com.interviewCamp.problems;
+package com.interviewCamp.problems.recursion;
 
 import java.util.HashMap;
 

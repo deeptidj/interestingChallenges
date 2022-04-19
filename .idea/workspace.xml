@@ -26,10 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/challenges/ConvertBinaryTreeDoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/DutchNationalFLag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/DutchNationalFLag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/timepass/challenges/SmallestPositiveNotInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/timepass/challenges/SmallestPositiveNotInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/FibRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LongestSubString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DutchNationalFLag">
+  <component name="RunManager" selected="Application.LongestSubString">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -180,13 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.Distinct" />
+    <configuration name="DutchNationalFLag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.DutchNationalFLag" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.timepass.challenges.ExtraCharacter" />
+          <option name="PATTERN" value="com.interviewCamp.problems.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,8 +193,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DutchNationalFLag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.DutchNationalFLag" />
+    <configuration name="KadaneMaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.KadaneMaxSubArray" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -208,13 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.Leader" />
+    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.LongestSubString" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.timepass.challenges.*" />
+          <option name="PATTERN" value="com.interviewCamp.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,19 +289,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.Distinct" />
-      <item itemvalue="Application.Leader" />
       <item itemvalue="Application.SmallestPositiveNotInArray" />
       <item itemvalue="Application.ConvertBinaryTreeDoublyLinkedList" />
       <item itemvalue="Application.DutchNationalFLag" />
+      <item itemvalue="Application.KadaneMaxSubArray" />
+      <item itemvalue="Application.LongestSubString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubString" />
+        <item itemvalue="Application.KadaneMaxSubArray" />
         <item itemvalue="Application.DutchNationalFLag" />
         <item itemvalue="Application.ConvertBinaryTreeDoublyLinkedList" />
         <item itemvalue="Application.SmallestPositiveNotInArray" />
-        <item itemvalue="Application.Leader" />
-        <item itemvalue="Application.Distinct" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +339,7 @@
       <workItem from="1649354257488" duration="3000" />
       <workItem from="1649369802558" duration="10567000" />
       <workItem from="1649899603002" duration="1535000" />
-      <workItem from="1650071522416" duration="38353000" />
+      <workItem from="1650071522416" duration="45103000" />
     </task>
     <servers />
   </component>
@@ -472,12 +471,12 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/FibRecursion.java</url>
           <line>17</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/FibRecursion.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/recursion/FibRecursion.java</url>
           <line>16</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
@@ -495,6 +494,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/twoDArrays/Rotate2DArray.java</url>
           <line>12</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/LongestSubString.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
