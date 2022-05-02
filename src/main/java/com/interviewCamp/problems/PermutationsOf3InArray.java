@@ -4,6 +4,7 @@ public class PermutationsOf3InArray {
     public static void main(String[] args) {
         int[] a = {1,2,3,4};
         printCombos(a, new int[3], 0, 0);
+
     }
     public static void printCombos(int[] a,int[] buffer, int startIndex, int bufferIndex) {
         System.out.println(" called: "+ "start Index " +startIndex + " buff Index " +bufferIndex);
