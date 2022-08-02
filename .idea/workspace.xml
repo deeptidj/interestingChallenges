@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c94df6-d54f-409b-ae70-2bd9407250d1" name="Default" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/SubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/timepass/challenges/GuessMysteryWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PermutationsOf3InArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interviewCamp/problems/PermutationsOf3InArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseInPlace">
+  <component name="RunManager" selected="Application.GuessMysteryWord">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -165,13 +164,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="DutchNationalFLag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interviewCamp.problems.DutchNationalFLag" />
+    <configuration name="GuessMysteryWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timepass.challenges.GuessMysteryWord" />
       <module name="interestingChallenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interviewCamp.problems.recursion.*" />
+          <option name="PATTERN" value="com.timepass.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,19 +288,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.With Args" />
-      <item itemvalue="Application.DutchNationalFLag" />
       <item itemvalue="Application.KadaneMaxSubArray" />
       <item itemvalue="Application.LongestSubString" />
       <item itemvalue="Application.SubString" />
       <item itemvalue="Application.ReverseInPlace" />
+      <item itemvalue="Application.GuessMysteryWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessMysteryWord" />
         <item itemvalue="Application.ReverseInPlace" />
         <item itemvalue="Application.SubString" />
         <item itemvalue="Application.LongestSubString" />
         <item itemvalue="Application.KadaneMaxSubArray" />
-        <item itemvalue="Application.DutchNationalFLag" />
       </list>
     </recent_temporary>
   </component>
@@ -340,6 +339,7 @@
       <workItem from="1649369802558" duration="10567000" />
       <workItem from="1649899603002" duration="1535000" />
       <workItem from="1650071522416" duration="47696000" />
+      <workItem from="1652059601497" duration="519000" />
     </task>
     <servers />
   </component>
